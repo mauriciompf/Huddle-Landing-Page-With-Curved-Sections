@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+:root {
+  --step--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem);
+  --step--1: clamp(0.94rem, calc(0.92rem + 0.09vw), 1.00rem);
+  --step-0: clamp(1.13rem, calc(1.08rem + 0.19vw), 1.25rem);
+  --step-1: clamp(1.35rem, calc(1.28rem + 0.32vw), 1.56rem);
+  --step-2: clamp(1.62rem, calc(1.50rem + 0.50vw), 1.95rem);
+  --step-3: clamp(1.94rem, calc(1.77rem + 0.75vw), 2.44rem);
+  --step-4: clamp(2.33rem, calc(2.08rem + 1.08vw), 3.05rem);
+  --step-5: clamp(2.80rem, calc(2.44rem + 1.53vw), 3.82rem);
+
+  --clr-primary-pink: hsl(322, 100%, 66%);
+  --clr-primary-light-pink: hsl(321, 100%, 78%);
+  --clr-primary-light-red: hsl(0, 100%, 63%);
+  --clr-neutral-very-dark-cyan: hsl(192, 100%, 9%);
+  --clr-neutral-very-pale-blue: hsl(207, 100%, 98%);
+
+  --ff-body: 'Open Sans', sans-serif;
+  --ff-xl: 'Poppins', sans-serif;
+
+  --space-s: 1rem;
+  --space-m: 2.5rem;
+  --space-l: 3.5rem;
+  --space-xl: 5rem;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	--btn-border: var(--clr-primary-light-pink);
+	--btn-bg: var(--clr-primary-pink);
+	--clr-footer: var(--clr-neutral-very-pale-blue);
+
+	--text: var(--clr-neutral-very-dark-cyan);
+	--email-invalid: var(--clr-primary-light-red);
+
+	font-family: var(--ff-body);
+	margin: 0 auto;
+	width: 85%;
+}
+
+img,
+input {
+	display: block;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+p {
+	color: var(--text);
+}
+
+/* ==========
+	Header
+============= */
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+
+	font-weight: 600;
+}
+
+.header-content img {
+	width: clamp(7.50rem, calc(1.68rem + 12.02vw), 12.50rem);
+}
+
+.btn-sign-up__header {
+	padding: .3rem 1rem;
+
+	font-size: var(--step--1);
+	color: var(--btn-border);
+	border: 1px solid var(--btn-border);
+	border-radius: 1.5rem;
+	background-color: transparent;
+}
+
+/* ==========
+	Main
+============= */
+.main {
+	text-align: center;
+}
+
+.section-content {
+	margin: var(--space-xl, 5rem) 0;
+}
+
+/* ==========
+	Footer
+============= */
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
