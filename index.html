@@ -4,35 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet" href="./design/style.css">
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </head>
 <body>
   <header class="header">
-    <div class="header-content">
+    <div class="header-content wrap">
       <img src="./images/logo.svg" alt="Huddle Logo">
       <a class="btn-sign-up__header" href="#">
         Try it free        
       </a>
+    </div>  
+    <div class="intro wrap">
+      <div class="text-content">
+        <h1 class="title-main">Build The Community Your Fans Will Love</h1>
+        <p class="paragraph-main">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.   
+        </p>
+        <a class="btn-sign-up__main" href="#">
+          Get Started For Free  
+        </a>
+      </div>
+      <div class="img-wrap__main">
+        <img src="./images/screen-mockups.svg" alt="Mockup">
+      </div>
     </div>
   </header>
   <main class="main">
-      <section class="section">
-        <div class="section-content">
-          <h1 class="title-main">Build The Community Your Fans Will Love</h1>
-          <p class="paragraph-main">
-            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.   
-          </p>
-          <a href="btn-sign-up__main">
-            Get Started For Free  
-          </a>
-        </div>
-        <div class="section-content img-wrap__main">
-          <img src="./images/screen-mockups.svg" alt="Mockup">
-        </div>
-      </section>
-
-      <section class="section">
+      <section class="section section-one">
         <div class="section-content">
           <div class="col-one">
             <img src="./images/icon-communities.svg" alt="">
@@ -47,37 +47,37 @@
         </div>
       </section>
 
-      <section class="section">
-        <article class="section-content">
+      <section class="section section-two">
+        <article class="section-content wrap">
           <img class="img-article" src="./images/illustration-grow-together.svg" alt="">
           <div class="text-content">
             <h2 class="title-section">Grow Together</h2>
-            <p class="paragraph-section">
+            <p class="paragraph paragraph-section paragraph-one">
               Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
             </p>
           </div>
         </article>
-        <article class="section-content">
-          <img src="./images/illustration-flowing-conversation.svg" alt="">
+        <article class="section-content wrap">
+          <img class="img-article" src="./images/illustration-flowing-conversation.svg" alt="">
           <div class="text-content">
             <h2 class="title-section">Flowing Conversations</h2>
-            <p class="paragraph paragraph-section">
+            <p class="paragraph paragraph-section paragraph-two">
               You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
             </p>
           </div>
         </article>
-        <article class="section-content">
-          <img src="illustration-your-users.svg" alt="">
+        <article class="section-content wrap">
+          <img class="img-article" src="./images/illustration-your-users.svg" alt="">
           <div class="text-content">
             <h2 class="title-section">Your Users</h2>
-            <p class="paragraph-section">
+            <p class="paragraph paragraph-section paragraph-three">
               It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
             </p>
           </div>
         </article>
       </section>
       
-      <section class="section">
+      <section class="section section-three">
         <div class="section-content">
           <h2 class="">Ready To Build Your Community?</h2>
           <a class="btn-sign-up__main" href="#">Get Started For Free</a>
@@ -86,7 +86,7 @@
   </main>
 
   <footer class="footer">
-    <div class="footer-content">
+    <div class="footer-content wrap">
       <div class="columns">
         <ul class="col-one">
           <li>
