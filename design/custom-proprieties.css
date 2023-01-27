@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+:root {
+  --step--2: clamp(0.78rem, calc(0.61rem + 0.75vw), 1.28rem);
+  --step--1: clamp(0.94rem, calc(0.70rem + 1.00vw), 1.60rem);
+  --step-0: clamp(1.13rem, calc(0.82rem + 1.31vw), 2.00rem);
+  --step-1: clamp(1.5rem, calc(0.95rem + 1.73vw), 2.50rem);
+  --step-2: clamp(1.62rem, calc(1.09rem + 2.26vw), 3.13rem);
+  --step-3: clamp(1.94rem, calc(1.25rem + 2.95vw), 3.91rem);
+  --step-4: clamp(2.33rem, calc(1.43rem + 3.83vw), 4.88rem);
+  --step-5: clamp(2.80rem, calc(1.64rem + 4.96vw), 6.10rem);
+
+  --clr-primary-pink: hsl(322, 100%, 66%);
+  --clr-primary-light-pink: hsl(321, 100%, 78%);
+  --clr-primary-light-red: hsl(0, 100%, 63%);
+  --clr-neutral-very-dark-cyan: hsl(192, 100%, 9%);
+  --clr-neutral-very-pale-blue: hsl(207, 100%, 98%);
+
+  --ff-body: 'Open Sans', sans-serif;
+  --ff-xl: 'Poppins', sans-serif;
+
+  --spcae-s-custom: .5rem;
+  --space-s: 1rem;
+  --space-sl: 1.5rem;
+  --space-m: 2rem;
+  --space-ml: 2.5rem;
+  --space-m-custom: 2.7rem;
+  --space-l: 3rem;
+  --space-ll: 3.5rem;
+  --space-x: 5rem;
+}
+
+body {
+  /* Colors */
+  --btn-border: var(--clr-primary-light-pink);
+  --btn-bg: var(--clr-primary-pink);
+  --bg-section: var(--clr-neutral-very-pale-blue);
+  --bg-footer: var(--clr-neutral-very-dark-cyan);
+  --clr-footer: var(--clr-neutral-very-pale-blue);
+  --text: var(--clr-neutral-very-dark-cyan);
+  --email-invalid: var(--clr-primary-light-red);
+
+  /* Font Sizes */
+  --fs-title: var(--step-1);
+  --fs-button: var(--step--2);
+  --fs-statistic-number: var(--step-3);
+  --fs-info: var(--step--2);
+
+  font-family: var(--ff-body);
+}
