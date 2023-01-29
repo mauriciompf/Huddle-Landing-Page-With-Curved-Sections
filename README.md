@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Screenshot]()
+![Desktop Screenshot](./images/screenshot-desktop.png)
 
 ### Links
 
 - Solution URL: [Solution]()
-- Live Site URL: [Live Site](/)
+- Live Site URL: [Live Site]()
 
 ## My process
 
@@ -46,6 +46,7 @@ Users should be able to:
 
 - Accessibility
 - CSS Grid
+- Validation
 - CSS custom properties
 
 ### Useful resources
