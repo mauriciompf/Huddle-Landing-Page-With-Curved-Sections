@@ -1,6 +1,6 @@
-# Frontend Mentor - Huddle landing page with alternating feature blocks solution
+# Frontend Mentor - Huddle Landing Page With Curved Sections
 
-This is a solution to the [Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Huddle Landing Page With Curved Sections on Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-responsive-design-nR4ew2kicB). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-responsive-design-nR4ew2kicB)
+- Live Site URL: [Live Site](https://mauriciompf.github.io/Huddle-Landing-Page-With-Curved-Sections/)
 
 ## My process
 
