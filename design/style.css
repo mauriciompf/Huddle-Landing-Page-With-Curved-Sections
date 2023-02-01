@@ -58,8 +58,8 @@ p {
 	left: 0;
 	right: 0;
 	padding: 1rem 7%;
+	z-index: 1;
 
-	background-color: transparent;
 	font-weight: 600;
 	transition: all .3s ease	;
 }
@@ -154,7 +154,7 @@ p {
 	align-items: baseline;
 }
 
-@media (max-width: 596px) {
+@media only screen and (max-width: 596px) {
 	.col {
 		align-items: center;
 	}
@@ -209,7 +209,7 @@ p {
 	background-color: var(--bg-section);
 }
 
-@media (min-width: 606px) {
+@media only screen and (min-width: 606px) {
 	.section-two .section-content {
 		text-align: left;
 		flex-direction: row;		
@@ -260,7 +260,7 @@ p {
 		flex-direction: column;
 }
 
-@media (min-width: 815px) {
+@media only screen and (min-width: 815px) {
 	.columns {
 		flex-direction: row-reverse;
 		gap: clamp(var(--space-x, 5rem), 1rem + 15vw, 20rem);
@@ -303,6 +303,14 @@ p {
 	color: var(--clr-primary-light-red);
 }
 
+@media only screen and (max-width: 815px) {
+	.error-message {
+		float: left;
+		text-align: left;
+		position: static;
+	}
+}
+
 .error {
   border: 1px solid var(--clr-primary-light-red);
 }
@@ -319,7 +327,7 @@ p {
 	cursor: pointer;
 }
 
-@media (min-width: 815px) {
+@media only screen and (min-width: 815px) {
 	.form {
 		display: flex;
 		gap: clamp(.5rem, 1.5vw, var(--space-sl));
